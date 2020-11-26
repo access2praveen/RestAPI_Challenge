@@ -10,13 +10,13 @@ Feature: Good day to Surf
      | Out of top ten   |   postcode    |
      | Bondi            |   2026        |
      | Manly            |   2095        |
-#     | Clovelly         |   2031        |
-#     | Coogee           |   2034        |
-#     | Bronte           |   2024        |
-#     | Shelly           |   2261        |
-#     | Balmoral         |   2088        |
-#     | Nielsen Park     |   2030        |
-#     | Milk             |   2030        |
-#     | Bilgola          |   2107        |
+     | Clovelly         |   2031        |
+     | Coogee           |   2034        |
+     | Bronte           |   2024        |
+     | Shelly           |   2261        |
+     | Balmoral         |   2088        |
+     | Nielsen Park     |   2030        |
+     | Milk             |   2030        |
+     | Bilgola          |   2107        |
 
 

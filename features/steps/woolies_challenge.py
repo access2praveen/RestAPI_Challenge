@@ -23,17 +23,12 @@ def Search_beaches(context, Out_of_top_ten):
 def surfing_days(context, week_days, total_days):
     context.desired_day_date = []
     week_day_index = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
-    #This is a list of weekdays which user is interested in
     week_days = week_days.replace('<','').replace('>','').replace(' ', '').split('&')
-    #converting string to integer as feature file sends variables as string
     period = int(total_days)
     today = datetime.today()
-    #iterate the dates for next 16 days 
     for i in range(0, period + 1):
         day = today + timedelta(days=i)
-        # Get today's day index (For ex Monday:0 Wednesday:2)
         day_index = day.weekday()
-        #Checking weather Thursday and Friday are present
         if week_day_index[day_index] in week_days:
             date = day.strftime('%Y-%m-%d')
             context.desired_day_date.append(date)
@@ -113,7 +108,7 @@ def Pick_Spots(context):
         if( filter_date_obj[date]['uv_matched'] == 1
             and filter_date_obj[date]['temp_matched'] == 1):
             # all criteria matched
-            print(f"Yay..Your Criteria matched for date: {date} and the Beach you should look for is {context.curr_beach_name}\n")
+            print(f"All Criteria matched for date: {date} and the Beach you should look for is {context.curr_beach_name}\n")
             if context.curr_postcode not in context.spot:
                 print(context.spot)
                 context.spot[context.curr_postcode] = {'beach_name':context.curr_beach_name, 'dates':[]}
