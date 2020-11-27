@@ -1,7 +1,12 @@
 # RestAPI_Challenge
 This script  is written on python3 
 
-Modules required are behave,json,datetime 
+Install below modules if not present 
+
+pip install requires
+pip install behave
+pip install datetime 
+
 
 Download the source using below command
 
