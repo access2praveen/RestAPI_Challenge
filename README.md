@@ -8,7 +8,9 @@ behave.ini - File where the default flags are enabled
 features\steps\code.py - File where the actual functions are written
 
 
-features\text.feature - File Describes the Features
+features\woolies.feature - File Describes the Features
+
+
 environment.py - File where the environment variables (global variables) are defined
 
 Install below modules, if not present , else enable python virtual environment as shown below
