@@ -7,9 +7,7 @@ behave.ini - File where the default flags are enabled
 
 features\steps\code.py - File where the actual functions are written
 
-
-features\woolies.feature - File Describes the Features
-
+features\woolies.feature - File Describes the Features, Scenario Outline , Where you can pass ( weekdays, post code, number of days) as variables
 
 environment.py - File where the environment variables (global variables) are defined
 
@@ -24,10 +22,10 @@ Download the source using below command
 
 https://github.com/access2praveen/RestAPI_Challenge
 
-Enable python virtual environment 
+# Enable python virtual environment 
 
 source venv\Scripts\activate 
 
-Run the feature using below command
+# Run the feature using below command
 
 behave features\woolies.feature
