@@ -33,7 +33,7 @@ pip install datetime
 
 Download the source using below command
 
-https://github.com/access2praveen/RestAPI_Challenge
+git clone https://github.com/access2praveen/RestAPI_Challenge
 
 # Enable python virtual environment 
 
