@@ -4,7 +4,10 @@ This script  is written on python3 using behave framework
 The Directory structure for behave framework is 
 
 behave.ini - File where the default flags are enabled
+
 features\steps\code.py - File where the actual functions are written
+
+
 features\text.feature - File Describes the Features
 environment.py - File where the environment variables (global variables) are defined
 
