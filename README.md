@@ -3,7 +3,12 @@ This script  is written on python3 using behave framework
 
 The Directory structure for behave framework is 
 
-behave.ini - File where the default flags are enabled
+-behave.ini
+-environment.py
+-features\steps\code.py
+-features\woolies.feature
+
+behave.ini - File where the default command line flags are enabled
 
 features\steps\code.py - File where the actual functions are written
 
