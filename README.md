@@ -15,11 +15,12 @@ The Directory structure for behave framework is
 
 behave.ini - File where the default command line flags are enabled
 
-features\steps\code.py - File where the actual functions are written
+environment.py - File where the environment variables (global variables) are defined
+
+features\steps\code.py - File where the actual test methods are written
 
 features\woolies.feature - File Describes the Features, Scenario Outline , Where you can pass ( weekdays, post code, number of days) as variables
 
-environment.py - File where the environment variables (global variables) are defined
 
 Install below modules, if not present , else enable python virtual environment as shown below
 
