@@ -4,8 +4,11 @@ This script  is written on python3 using behave framework
 The Directory structure for behave framework is 
 
 -behave.ini
+
 -environment.py
+
 -features\steps\code.py
+
 -features\woolies.feature
 
 behave.ini - File where the default command line flags are enabled
